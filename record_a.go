@@ -40,7 +40,7 @@ func NewRecordA(ra RecordA) *RecordA {
 	res.objectType = "record:a"
 
 	res.returnFields = []string{"ipv4addr", "name", "view", "zone", "extattrs", "comment",
-		"creator", "ddns_protected", "dns_name", "forbid_reclamation", "reclaimable", "ttl", "use_ttl"}
+		"dns_name", "ttl", "use_ttl"}
 	return &res
 }
 

@@ -29,7 +29,7 @@ var _ = Describe("Testing RecordAOperations", func() {
 		It("should set base fields correctly", func() {
 			Expect(ra.ObjectType()).To(Equal("record:a"))
 			Expect(ra.ReturnFields()).To(ConsistOf("ipv4addr", "name", "view", "zone", "extattrs", "comment",
-				"creator", "ddns_protected", "dns_name", "forbid_reclamation", "reclaimable", "ttl", "use_ttl"))
+				"dns_name", "ttl", "use_ttl"))
 		})
 	})
 
